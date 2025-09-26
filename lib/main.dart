@@ -4,6 +4,8 @@ import 'package:flutter_bloc_architecture/bloc/counter_bloc.dart';
 import 'package:flutter_bloc_architecture/bloc/counter_event.dart';
 import 'package:flutter_bloc_architecture/bloc/counter_state.dart';
 
+import 'MyHomePage.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -19,14 +21,9 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class MyHomePage extends StatelessWidget{
-  @override
-  Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
-  }
 
-}
+
+
 
 
 //using bloc
